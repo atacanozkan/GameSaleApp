@@ -21,7 +21,7 @@ namespace GameSale
             customer1.FirstName = "Atacan";
             customer1.LastName = "Özkan";
             customer1.DateOfBirth = new DateTime(1985, 1, 1);
-            customer1.NationalityId = "39896031010";
+            customer1.NationalityId = "1111111111";
 
             Customer customer1Update = new Customer();
             customer1Update.Id = 1;
@@ -35,7 +35,7 @@ namespace GameSale
             customer2.FirstName = "Atacan";
             customer2.LastName = "Özkan";
             customer2.DateOfBirth = new DateTime(1985, 1, 1);
-            customer2.NationalityId = "39896031010";
+            customer2.NationalityId = "22222222222";
 
             Customer customer2Update = new Customer();
             customer2Update.Id = 2;
