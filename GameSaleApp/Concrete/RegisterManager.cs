@@ -8,7 +8,7 @@ using GameSale.Entities;
 
 namespace GameSale.Concrete
 {
-    public class RegisterManager
+    public class RegisterManager: IRegisterService
     {
         private List<Customer> customers;
         private IValidationService _iValidationService;

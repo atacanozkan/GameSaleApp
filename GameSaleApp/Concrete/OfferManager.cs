@@ -1,11 +1,12 @@
-﻿using GameSale.Entities;
+﻿using GameSale.Abstract;
+using GameSale.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace GameSale.Concrete
 {
-    public class OfferManager
+    public class OfferManager: IOfferService
     {
         private List<Offer> offers;
 
